@@ -1,0 +1,20 @@
+{
+    "name": "fuzzphyte.chain.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:83592c127921bbb4297ffa15a85e3883",
+        "GUID:b7037d2dbdf44e841b941ee65cff461c",
+        "GUID:436492a825e82f64f94afc2004d68eeb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

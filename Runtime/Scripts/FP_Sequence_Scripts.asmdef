@@ -1,0 +1,16 @@
+{
+    "name": "FP_Sequence_Scripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b7037d2dbdf44e841b941ee65cff461c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
