@@ -31,5 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Setup the contents to align with Unity naming conventions
 - Had to modify existing Assembly Definition files associated with the Tests
 - Hot Fix removed unneeded *.asmdef reference in the runtime folder, no version change
+- Fix for Addressable Editor Reference errors *.asmdef included platform is now 'Editor' for fuzzphyte.chain.Editor.asmdef
 
 ### Removed
