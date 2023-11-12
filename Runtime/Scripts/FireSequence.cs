@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using FuzzPhyte.Utility;
 using UnityEngine;
 
 namespace FuzzPhyte.Chain

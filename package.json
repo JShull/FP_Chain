@@ -1,10 +1,10 @@
 {
   "name": "com.fuzzphyte.chain",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "FP Chain",
   "description": "FP Chain is a sequence tool built to help generate sequences from data.",
-  "unity": "2021.2",
-  "unityRelease": "19f1",
+  "unity": "2022.3",
+  "unityRelease": "13f1",
   "documentationUrl": "https://github.com/jshull/FP_Chain/README.md",
   "changelogUrl": "https://github.com/jshull/FP_Chain/CHANGELOG.md",
   "licensesUrl": "https://github.com/jshull/FP_Chain/LICENSE.md",
@@ -13,13 +13,13 @@
     "url": "https://github.com/jshull/FP_Chain.git"
   },
   "dependencies": {
-    "com.unity.test-framework": "1.1.31"
+    "com.fuzzphyte.utility":"https://github.com/JShull/FP_Utility.git"
   },
   "samples": [
     {
-      "displayName": "Chain Example Scene",
+      "displayName": "Chain Example Scenes",
       "description": "Not fully ready - but a place to start",
-      "path": "Samples/"
+      "path": "Samples~/"
     }
   ],
   "keywords": [

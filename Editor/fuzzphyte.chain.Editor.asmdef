@@ -1,10 +1,10 @@
 {
-    "name": "fuzzphyte.chain.Editor",
-    "rootNamespace": "",
+    "name": "com.fuzzphyte.chain.editor",
+    "rootNamespace": "FuzzPhyte.Chain.Editor",
     "references": [
-        "GUID:83592c127921bbb4297ffa15a85e3883",
         "GUID:b7037d2dbdf44e841b941ee65cff461c",
-        "GUID:436492a825e82f64f94afc2004d68eeb"
+        "GUID:8729f3cadef284ac4bc6fd994d431e7a",
+        "GUID:b2274f1409ce26f40919f89f9d4f667c"
     ],
     "includePlatforms": [
         "Editor"

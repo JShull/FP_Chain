@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
-namespace FuzzPhyte.Chain
+using EditorUtil = FuzzPhyte.Utility.Editor.FP_Utility_Editor;
+namespace FuzzPhyte.Chain.Editor
 {
     public class FireSeqPopUp : PopupWindowContent
     {

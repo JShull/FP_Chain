@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using UnityEngine.Events;
+using FuzzPhyte.Utility;
+using UEditor = UnityEditor.Editor;
+using EditorUtil = FuzzPhyte.Utility.Editor.FP_Utility_Editor;
 
-namespace FuzzPhyte.Chain
+namespace FuzzPhyte.Chain.Editor
 {
     [CustomEditor(typeof(SequenceItem))]
-    public class SequenceItemEditor : Editor
+    public class SequenceItemEditor : UEditor
     {
         SequenceItem mySequenceItem;
         SerializedProperty m_nextSequences;
@@ -61,6 +61,7 @@ namespace FuzzPhyte.Chain
                 Rect curRect = GUILayoutUtility.GetLastRect();
                 
                 EditorGUI.indentLevel++;
+
                 Color statusColor = EditorUtil.ReturnColorByStatus(mySequenceItem.Status);
                 string htmlColor = ColorUtility.ToHtmlStringRGBA(statusColor);
                 

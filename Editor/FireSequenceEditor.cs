@@ -1,22 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using UnityEditor.AnimatedValues;
-namespace FuzzPhyte.Chain
+using FuzzPhyte.Utility;
+using UEditor = UnityEditor.Editor;
+using EditorUtil = FuzzPhyte.Utility.Editor.FP_Utility_Editor;
+
+namespace FuzzPhyte.Chain.Editor
 {
     [Serializable]
     [CustomEditor(typeof(FireSequence))]
-    public class FireSequenceEditor : Editor
+    public class FireSequenceEditor : UEditor
     {
         //bool m_showDataFile;
         //bool m_showRequirements;
         Vector2 textAreaScroll;
         FireSequence myFireSequence;
-
-       
 
         public override void OnInspectorGUI()
         {

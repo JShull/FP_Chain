@@ -1,4 +1,5 @@
 using System;
+using FuzzPhyte.Utility;
 namespace FuzzPhyte.Chain
 {
     /// <summary>

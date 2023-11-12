@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Linq;
 using System;
+using FuzzPhyte.Utility;
+
 namespace FuzzPhyte.Chain
 {
     [Serializable]
@@ -105,7 +107,8 @@ namespace FuzzPhyte.Chain
 #if UNITY_EDITOR
             Vector3 centerP = transform.position;
             // List<Vector3> endPoints = new List<Vector3>();
-            Color curColor = Utility.ReturnColorByStatus(Status);
+            
+            Color curColor = FP_UtilityData.ReturnColorByStatus(Status);
             for (int i = 0; i < NextSequences.Count; i++)
             {
                 if (NextSequences[i] != null)
@@ -130,7 +133,7 @@ namespace FuzzPhyte.Chain
                     Vector3 startTan = new Vector3(centerP.x, centerP.y + 1 + (j * 2f), centerP.z);
 
                     Vector3 forwardV = (nextS - startTan).normalized;
-                    Color fromColor = Utility.ReturnColorByStatus(RequiredSequences[j].Status);
+                    Color fromColor = FP_UtilityData.ReturnColorByStatus(RequiredSequences[j].Status);
                     UnityEditor.Handles.DrawBezier(centerP, nextS - (forwardV * 0.25f), startTan, nextS, fromColor, null, 2f);
 
                     UnityEditor.Handles.color = fromColor;

@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-11-12
+
+### Changed
+
+- [@JShull](https://github.com/jshull).
+  - Cleaned up and removed generic utility classes
+  - Referencing FP_Utility.git now as a dependency
+    - Moved Sequence enum to here as well
+    - Adjusted code that had dependencies to color Sequence returns
+
+### Removed
+
+- Removed Tests as they weren't fully setup
+
 ## [0.1.0] - 2022-06-15
 
 ### Added
