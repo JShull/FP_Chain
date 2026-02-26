@@ -4,7 +4,7 @@ using System;
 namespace FuzzPhyte.Chain
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "SquenceDetails", menuName = "ScriptableObjects/FuzzPhyte/Sequence/Details", order = 0)]
+    [CreateAssetMenu(fileName = "SquenceDetails", menuName = "FuzzPhyte/Chain/Details", order = 0)]
     public class SequenceDetails : ScriptableObject
     {
         /// <summary>
