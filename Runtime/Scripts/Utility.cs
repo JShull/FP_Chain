@@ -1,9 +1,9 @@
-using System;
-using UnityEngine;
-using FuzzPhyte.Utility;
 namespace FuzzPhyte.Chain
 {
-    
+    using System;
+    using UnityEngine;
+    using FuzzPhyte.Utility;
+
     /// <summary>
     /// Unity's weird way of referencing an enum as a passed component
     /// </summary>
@@ -16,7 +16,6 @@ namespace FuzzPhyte.Chain
     /// with monobehavior and the editor to help with the FireSequence.cs
     /// </summary>
     [Serializable]
-    [SerializeField]
     public enum FireSequenceEventType
     {
         StateUpdate =0,
@@ -30,5 +29,4 @@ namespace FuzzPhyte.Chain
     {
         public FireSequenceEventType EventType;
     }
-    
 }
